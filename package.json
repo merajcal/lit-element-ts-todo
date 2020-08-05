@@ -19,7 +19,7 @@
     "docs:gen:watch": "eleventy --config=.eleventy.cjs --watch",
     "docs:build": "rollup -c --file docs/my-element.bundled.js",
     "docs:assets": "cp node_modules/prismjs/themes/prism-okaidia.css docs/",
-    "docs:serve": "es-dev-server --root-dir=docs --node-resolve --watch",
+    "docs:serve": "es-dev-server --root-dir=docs --node-resolve --open --watch",
     "analyze": "wca analyze \"src/**/*.ts\" --outFile custom-elements.json",
     "serve": "es-dev-server --node-resolve --watch",
     "test": "karma start karma.conf.cjs",
